@@ -1,4 +1,4 @@
-// ➕➖ Arithmetic Operators in JavaScript 
+// ➕➖ Arithmetic Operators in JavaScri
 // Arithmetic operators are used to perform mathematical calculations.
 
 // 📌 List of Arithmetic Operators
