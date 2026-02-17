@@ -178,3 +178,34 @@
 
 // Why?
 // 👉 Input values are strings, so explicit number conversion is needed.
+
+// String Conversion
+
+// console.log("Hello" + 10);
+
+// Explicit Conversion
+
+// console.log(Number("10"));
+// console.log(Number(true));
+// console.log(Number(false));
+// console.log(Number(null));
+// console.log(Number(undefined));
+// console.log(Number("abc"));
+
+// String
+
+// console.log(String(null));
+// console.log(String(10));
+// console.log(String(true));
+// console.log(String(undefined));
+// console.log(String(NaN));
+
+// Boolean()
+
+// console.log(Boolean(0));
+// console.log(Boolean(10));
+// console.log(Boolean(""));
+// console.log(Boolean(undefined));
+// console.log(Boolean("abc"));
+// console.log(Boolean("null"));
+
