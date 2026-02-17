@@ -209,3 +209,5 @@
 // console.log(Boolean("abc"));
 // console.log(Boolean("null"));
 
+console.log(isNaN(""));
+console.log(Number.isNaN(""));
