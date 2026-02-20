@@ -25,3 +25,29 @@
 //     i++;
 // }
 // console.log(sum);
+
+// Do While Loop
+
+// let correctPassword = "1234";
+// let enteredPassword;
+
+// do {
+//     enteredPassword = prompt("Enter Your Password");
+// } while (enteredPassword !== correctPassword);
+
+// let i = 1;
+
+// do {
+//     if (i % 2 == 0) {
+//         console.log(i);
+//     }
+//     i++;
+// } while (i <= 10);
+
+let number = 3;
+let i = 1;
+
+do {
+    console.log(number + " x " + i + " = ", (number * i));
+    i++;
+} while (i <= 10);
