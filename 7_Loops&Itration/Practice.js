@@ -44,10 +44,26 @@
 //     i++;
 // } while (i <= 10);
 
-let number = 3;
-let i = 1;
+// let number = 3;
+// let i = 1;
 
-do {
-    console.log(number + " x " + i + " = ", (number * i));
-    i++;
-} while (i <= 10);
+// do {
+//     console.log(number + " x " + i + " = ", (number * i));
+//     i++;
+// } while (i <= 10);
+
+// Nested Loops
+
+// for (let i=1; i<=3; i++) {
+//     for (let j=1; j<=3; j++) {
+//         console.log(i, j);
+//     }
+// }
+
+// for (let i = 1; i <= 5; i++) {
+//     let stars = "";
+//     for (let j = 1; j <= i; j++) {
+//         stars += " *";
+//     }
+//     console.log(stars);
+// }
