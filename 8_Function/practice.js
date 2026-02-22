@@ -13,3 +13,10 @@
 // let result = multiplication (3,4);
 // console.log(result);
 
+// Function Expression
+
+// let sum = function (a, b){
+//     return a + b;
+// }
+
+// console.log(sum (2,2));
