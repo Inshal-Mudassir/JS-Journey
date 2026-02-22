@@ -37,5 +37,14 @@
 
 // sayHello ("inshal");
 
-const add = (a, b) => a + b;
-console.log(add(1,2));
+// const add = (a, b) => a + b;
+// console.log(add(1,2));
+
+// Default Parameter
+
+// const sum = (a=2,b=3) => {
+//     return a + b;
+// }
+
+// console.log(sum(1,1));
+// console.log(sum());
