@@ -48,3 +48,15 @@
 
 // console.log(sum(1,1));
 // console.log(sum());
+
+// Rest Parameter
+
+// let sum = (...number) => {
+//     let result = 0;
+//     for (let num of number) {
+//         result += num;
+//     }
+//     return result;
+// }
+
+// console.log(sum (1,2,3,4,5));
