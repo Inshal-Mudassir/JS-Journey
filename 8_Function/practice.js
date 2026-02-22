@@ -20,3 +20,22 @@
 // }
 
 // console.log(sum (2,2));
+
+// Arrow Function
+
+// const add = (a, b)=>{
+//     console.log(a + b);
+// }
+
+// add (3, 3);
+
+// One Parameter
+
+// const sayHello = name => {
+//     console.log("Hello!", name);
+// }
+
+// sayHello ("inshal");
+
+const add = (a, b) => a + b;
+console.log(add(1,2));
