@@ -60,3 +60,9 @@
 // }
 
 // console.log(sum (1,2,3,4,5));
+
+// CallBack Function
+
+function greet (name) {
+    console.log("Hello!" + name)
+}
