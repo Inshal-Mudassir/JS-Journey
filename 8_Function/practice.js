@@ -63,6 +63,10 @@
 
 // CallBack Function
 
-function greet (name) {
-    console.log("Hello!" + name)
-}
+// function greet (name) {
+//     console.log("Hello!" + name)
+// }
+
+// (function () {
+//     console.log('Hello!');
+// })();
