@@ -34,6 +34,22 @@
 
 // Array Length
 
-let arr = [1,2,3,4];
-arr.length = 2;
-console.log(arr);
+// let arr = [1,2,3,4];
+// arr.length = 2;
+// console.log(arr);
+
+// Array Loops
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+// for (let i=0; i<fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// for (let fruit of fruits) {
+//     console.log(fruit);
+// }
+
+// fruits.forEach(function (fruit) {
+//     console.log(fruit);
+// });
