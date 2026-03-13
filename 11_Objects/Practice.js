@@ -47,3 +47,13 @@
 // };
 
 // person.greet();
+
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     city : "Pirmahal"
+// }
+
+// let {name: userName, age} = person;
+// console.log(userName);
+// console.log(age);
