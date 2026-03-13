@@ -26,3 +26,16 @@
 //     }
 // };
 // person.greet();
+
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     Address : {
+//         city : "Pirmahal",
+//         country : "Pakistan"
+//     }
+// };
+// console.log(person.Address.city);
+// console.log(person.Address.country);
+
+
