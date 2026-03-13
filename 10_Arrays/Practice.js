@@ -40,7 +40,7 @@
 
 // Array Loops
 
-let fruits = ["Apple", "Banana", "Mango"];
+// let fruits = ["Apple", "Banana", "Mango"];
 
 // for (let i=0; i<fruits.length; i++) {
 //     console.log(fruits[i]);
@@ -53,3 +53,45 @@ let fruits = ["Apple", "Banana", "Mango"];
 // fruits.forEach(function (fruit) {
 //     console.log(fruit);
 // });
+
+// let fruits = ["Apple", "Banana", "Mango"];
+
+// slice()
+// fruits.splice(1,1);
+// let fruit = fruits.slice(0,2);
+
+// console.log(fruits);
+// console.log(fruit);
+
+// let arr1 = [3,4];
+// let arr2 = [5,6];
+
+// let result = arr1.concat(arr2);
+// console.log(result);
+
+// let arr = [1,2,3,4];
+// console.log(arr.indexOf(2));
+// console.log(arr.includes(2));
+// console.log(arr.find(num => num > 2));
+
+// let arr = [1,2,3,4];
+// arr.forEach(function (num) {
+//     console.log(num * 2);
+// });
+// let result = arr.map((num)=> num * 5);
+// console.log(result);
+
+// let result = arr.filter (num => num > 2);
+// console.log(result);
+
+// let arr = [1,2,3,4,5];
+// let result = arr.reduce((acc,cur)=> acc + cur,0);
+// console.log(result);
+
+// console.log(arr.some ((num) => num > 3));
+
+// let even = [2,4,3,1,6];
+// console.log(even.every((num) => num % 2 == 0));
+// console.log(even.sort());
+// even.reverse();
+// console.log(even);
