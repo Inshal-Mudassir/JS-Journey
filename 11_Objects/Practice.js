@@ -38,4 +38,12 @@
 // console.log(person.Address.city);
 // console.log(person.Address.country);
 
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     greet () {
+//         console.log("Hello! " + this.name);
+//     }
+// };
 
+// person.greet();
