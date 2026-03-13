@@ -95,3 +95,11 @@
 // console.log(even.sort());
 // even.reverse();
 // console.log(even);
+
+// let arr = [1,2,3,4];
+// let [a, b, c, d, e = 10] = arr;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// console.log(d);
+// console.log(e);
