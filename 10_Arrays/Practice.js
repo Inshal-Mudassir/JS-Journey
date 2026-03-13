@@ -8,9 +8,27 @@
 // let numbers = new Array(4);
 // console.log(numbers);
 
-let num = [1,2,3,4,12];
-num[4] = 32;
+// let num = [1,2,3,4,12];
+// num[4] = 32;
 // console.log(num.length);
 // console.log(num[num.length - 1]);
-let IndexOfLastEl = num.length;
-console.log(num[IndexOfLastEl - 1]);
+// let IndexOfLastEl = num.length;
+// console.log(num[IndexOfLastEl - 1]);
+
+// Modyfying Arrays
+
+
+// let arr = [1,2];
+// // Push()
+// arr.push(3);
+// // unshift()
+// arr.unshift(0);
+// console.log(arr);
+
+// let arr = [1,2,3,4];
+// // pop() & shift()
+
+// arr.pop();
+// arr.shift();
+// console.log(arr);
+
