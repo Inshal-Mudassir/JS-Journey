@@ -17,4 +17,12 @@
 // console.log(person["age"]);
 // console.log(person["city"]);
 
-
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     city : "Pirmahal",
+//     greet : function(){
+//         console.log("Hello!");
+//     }
+// };
+// person.greet();
