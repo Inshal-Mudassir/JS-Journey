@@ -103,3 +103,7 @@
 // console.log(c);
 // console.log(d);
 // console.log(e);
+
+let arr1 = [1,2,3];
+let arr2 = [4,5,...arr1,7,8];
+console.log(arr2);
