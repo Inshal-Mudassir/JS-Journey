@@ -24,5 +24,11 @@
 
 // let num = 5.6789;
 // console.log(num.toFixed(2));
-let num = "50.23";
-console.log(parseFloat(num));
+// let num = "50.23";
+// console.log(parseFloat(num));
+
+// console.log(Math.round(4.6));
+// console.log(Math.round(4.4));
+// console.log(Math.floor(4.6));
+// console.log(Math.ceil(4.6));
+// console.log(Math.random());
