@@ -12,5 +12,10 @@
 
 // console.log(message);
 
-console.log(`Welcome To
-    JavaScript`);
+// console.log(`Welcome To
+//     JavaScript`);
+
+// Excape Characters
+
+// let text = "He said \"Hello\"";
+// console.log(text);
