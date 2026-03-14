@@ -95,3 +95,14 @@
 // let entries = Object.entries(person);
 // console.log(entries);
 
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     city : "Pirmahal"
+// };
+
+// let copy = {...person};
+// console.log(copy);
+
+// let copy = Object.assign({},person);
+// console.log(copy);
