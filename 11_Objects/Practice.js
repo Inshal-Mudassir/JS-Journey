@@ -91,3 +91,7 @@
 
 // let values = Object.values(person);
 // console.log(values);
+
+// let entries = Object.entries(person);
+// console.log(entries);
+
