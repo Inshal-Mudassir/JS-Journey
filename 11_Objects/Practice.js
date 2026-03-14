@@ -106,3 +106,11 @@
 
 // let copy = Object.assign({},person);
 // console.log(copy);
+
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     city : "Pirmahal"
+// };
+
+// console.log(person.hasOwnProperty("name"));
