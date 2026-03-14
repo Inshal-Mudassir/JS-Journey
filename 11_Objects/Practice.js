@@ -81,3 +81,10 @@
 // };
 // console.log(result);
 
+// let person = {
+//     name : "Inshal",
+//     age : 20,
+//     city : "Pirmahal"
+// };
+// let keys = Object.keys(person);
+// console.log(keys);
