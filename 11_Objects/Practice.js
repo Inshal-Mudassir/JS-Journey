@@ -57,3 +57,27 @@
 // let {name: userName, age} = person;
 // console.log(userName);
 // console.log(age);
+
+
+
+// let person = {
+//     name : "Inshal",
+//     age : 28
+// };
+
+// let newPerson = {...person};
+// console.log(newPerson);
+
+// let obj1 = {
+//     x : 1
+// };
+// let obj2 = {
+//     y : 3
+// };
+// let result = {
+//     ...obj1,
+//     ...obj2,
+//     z : 7
+// };
+// console.log(result);
+
