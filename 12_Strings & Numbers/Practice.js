@@ -19,3 +19,10 @@
 
 // let text = "He said \"Hello\"";
 // console.log(text);
+
+// Number Methods
+
+// let num = 5.6789;
+// console.log(num.toFixed(2));
+let num = "50.23";
+console.log(parseFloat(num));
