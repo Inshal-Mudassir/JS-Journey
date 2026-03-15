@@ -37,7 +37,13 @@
 
 // setInterval()
 
-let timeInterval = 1000;
-setInterval(()=>{
-    console.log("Hi!");
-},timeInterval);
+// let timeInterval = 1000;
+// setInterval(()=>{
+//     console.log("Hi!");
+// },timeInterval);
+
+// let timer = setTimeout(() => {
+//   console.log("Hello");
+// }, 3000);
+
+// clearTimeout(timer);
