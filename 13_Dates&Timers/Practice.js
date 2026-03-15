@@ -22,3 +22,8 @@
 // let seconds = watch.getSeconds();
 // console.log(`${hours}:${minutes}:${seconds}`);
 
+// Time Zone
+
+// let now = new Date();
+// console.log(now.toString());
+// console.log(now.getTimezoneOffset());
