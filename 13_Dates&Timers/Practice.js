@@ -27,3 +27,10 @@
 // let now = new Date();
 // console.log(now.toString());
 // console.log(now.getTimezoneOffset());
+
+// setTimeout()
+
+// let delayTime = 5000;
+// setTimeout(()=>{
+//     console.log("Hi!");
+// },delayTime);
