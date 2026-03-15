@@ -34,3 +34,10 @@
 // setTimeout(()=>{
 //     console.log("Hi!");
 // },delayTime);
+
+// setInterval()
+
+let timeInterval = 1000;
+setInterval(()=>{
+    console.log("Hi!");
+},timeInterval);
