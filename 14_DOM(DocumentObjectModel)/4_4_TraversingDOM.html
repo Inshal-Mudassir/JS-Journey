@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traversing DOM</title>
+</head>
+<body>
+    <div id="parent">
+        <h1>Title</h1>
+        <p>Paragraph</p>
+        <span>Span Text</span>
+    </div>
+</body>
+<script>
+    // let child = document.querySelector("h1");
+    // console.log(child.parentElement);
+    // let parent = document.querySelector("#parent");
+    // console.log(parent.children);
+    // console.log(parent.children[0]);
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+    let sibling = document.querySelector("p");
+    console.log(sibling.nextElementSibling);
+    console.log(sibling.previousElementSibling);
+</script>
+</html>
