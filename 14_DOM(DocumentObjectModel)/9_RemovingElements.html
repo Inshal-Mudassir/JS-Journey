@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Removing Elements</title>
+</head>
+<body>
+    <h1 id="title">Hello</h1>
+    <p>My name is inshal.</p>
+    <button>Remove</button>
+</body>
+<script>
+    let title = document.querySelector("#title");
+    title.remove();
+
+    let text = document.querySelector("p");
+    let btn = document.querySelector("button");
+    btn.addEventListener("click",()=>{
+        text.remove();
+    });
+</script>
+</html>
