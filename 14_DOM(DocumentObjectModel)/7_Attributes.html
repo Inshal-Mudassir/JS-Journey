@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<body>
+    <img src="image.jpg" alt="img" id="pic">
+    <a id="link" href="#">Click</a>
+    <button>Click Me</button>
+    
+</body>
+<script>
+    let img = document.querySelector("img");
+    console.log(img.getAttribute("src"));
+    img.setAttribute("alt", "image");
+
+    let link = document.querySelector("#link");
+    let btn = document.querySelector("button");
+
+    btn.addEventListener("click", ()=>{
+        link.setAttribute("href","https://www.google.com");
+    });
+</script>
+</html>
