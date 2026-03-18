@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container"></div>
+    <ul></ul>
+    <hr>
+    <button>Add Item</button>
+    <ul id="addItem"></ul>
+    
+</body>
+<script>
+    let el = document.createElement("p");
+    console.log(el);
+    el.innerText = "Hello Inshal";
+    let container = document.querySelector("#container");
+    container.appendChild(el);
+
+    let ul = document.querySelector("ul");
+    for(let i=1;i<=5;i++){
+        let li = document.createElement("li");
+        li.innerText = "item" + i;
+        ul.append(li);
+    }
+
+    let btn = document.querySelector("button");
+    let addItem = document.querySelector("#addItem");
+    btn.addEventListener("click", ()=>{
+        let li = document.createElement("li");
+        li.innerText = "New Item";
+        addItem.append(li);
+    })
+
+</script>
+</html>
