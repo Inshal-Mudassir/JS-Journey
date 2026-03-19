@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listener</title>
+</head>
+<body>
+    <!-- <input type="text" name="" id=""> -->
+    <Button>Click Me</Button>
+    <p>0</p>
+</body>
+<script>
+    let btn = document.querySelector("button");
+    let para = document.querySelector("p");
+    btn.addEventListener("click",()=>{
+        let text = Number(para.innerText);
+        para.innerText = text + 1;
+    })
+    // btn.addEventListener("mouseover",function (){
+    //     console.log("Mouse Over!");
+    // });
+    // btn.addEventListener("click",function (e){
+    //     console.log("Button was clicked!");
+    //     console.log(e);
+    // });
+    // let input = document.querySelector("input");
+    // input.addEventListener("input",(e)=>{
+    //     console.log(e.target.value);
+    // });
+</script>
+</html>
