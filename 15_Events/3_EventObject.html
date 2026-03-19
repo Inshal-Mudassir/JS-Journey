@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Object</title>
+  </head>
+  <body>
+    <a href="https://www.google.com">Google</a>
+    <button>Click Me</button>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </body>
+  <script>
+    let ul = document.querySelector("ul");
+    ul.addEventListener("click",(e)=>{
+        console.log(e.target.innerText);
+    });
+    // let a = document.querySelector("a");
+    // let btn = document.querySelector("button");
+    // a.addEventListener("click", (e) => {
+    //   e.preventDefault();
+    //   console.log("Stop Redirect...");
+    // });
+    // btn.addEventListener("click", (e) => {
+    //   // e.target.innerText = "Clicked";
+    //   btn.innerText = "clicked";
+    // });
+  </script>
+</html>
