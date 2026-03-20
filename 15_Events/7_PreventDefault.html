@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prevent Default</title>
+</head>
+<body>
+    <a href="#">Click Me</a>
+    <p></p>
+</body>
+<script>
+    let a = document.querySelector("a");
+    let p = document.querySelector("p");
+    a.addEventListener("click",(e)=>{
+        e.preventDefault();
+        console.log("Click Link Blocked!");
+        p.innerText = "Website Is Down!";
+    });
+</script>
+</html>
