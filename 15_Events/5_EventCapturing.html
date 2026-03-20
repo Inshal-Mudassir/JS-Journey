@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Capturing</title>
+</head>
+<body>
+    <div id="outer">
+        <div id="inner">
+            <button>Click Me</button>
+        </div>
+    </div>
+</body>
+<script>
+    let outer = document.querySelector("#outer");
+    let inner = document.querySelector("#inner");
+    let btn = document.querySelector("button");
+
+    // outer.addEventListener("click",(e)=>{
+    //     console.log("outer");
+    // },true);
+    // inner.addEventListener("click",()=>{
+    //     console.log("inner");
+    // },true);
+    // btn.addEventListener("click",()=>{
+    //     console.log("Clicked!");
+    // },true);
+
+    outer.addEventListener("click",(e)=>{
+        console.log("outer");
+    });
+    inner.addEventListener("click",()=>{
+        console.log("inner");
+    });
+    btn.addEventListener("click",(e)=>{
+        e.stopPropagation();
+        console.log("Clicked!");
+    });
+</script>
+</html>
