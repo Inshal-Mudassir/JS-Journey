@@ -23,11 +23,19 @@
 //     console.log("location is not available");
 // }
 
-navigator.geolocation.getCurrentPosition((position)=>{
-    console.log(position.coords.altitude);
-    console.log(position.coords.longitude);
-},
-(error)=>{
-    console.log(error.message);
-}
-);
+// navigator.geolocation.getCurrentPosition((position)=>{
+//     console.log(position.coords.altitude);
+//     console.log(position.coords.longitude);
+// },
+// (error)=>{
+//     console.log(error.message);
+// }
+// const success = (position)=>{
+//     let altitude = position.coords.altitude;
+//     let longitude = position.coords.longitude;
+// };
+// let error = (err)=>{
+//     console.log(err.message);
+// };
+
+// navigator.geolocation.getCurrentPosition(success,error);
