@@ -104,6 +104,13 @@
 // console.log(d);
 // console.log(e);
 
-let arr1 = [1,2,3];
-let arr2 = [4,5,...arr1,7,8];
-console.log(arr2);
+// let arr1 = [1,2,3];
+// let arr2 = [4,5,...arr1,7,8];
+// console.log(arr2);
+
+// let num = [1,2,3,4,5];
+// let sum = 0;
+// num.forEach((num)=>{
+//     sum += num;
+// });
+// console.log(sum);
