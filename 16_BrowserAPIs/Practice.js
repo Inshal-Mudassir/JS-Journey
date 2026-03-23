@@ -39,3 +39,8 @@
 // };
 
 // navigator.geolocation.getCurrentPosition(success,error);
+
+// Clipboard API
+
+navigator.clipboard.writeText("Hello World");
+
