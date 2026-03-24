@@ -42,5 +42,10 @@
 
 // Clipboard API
 
-navigator.clipboard.writeText("Hello World");
+// navigator.clipboard.writeText("Hello World");
+
+// Cookies
+
+// document.cookie = "name=Inshal";
+// console.log(document.cookie);
 
