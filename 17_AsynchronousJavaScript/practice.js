@@ -89,18 +89,33 @@
 //     console.log(data);
 // }
 
-// users();
+// // users();
 
-function delay (){
-    return new Promise((resolve)=>{
-        setTimeout(()=>{
-            resolve("Done");
-        },2000);
-    });
-}
+// function delay (){
+//     return new Promise((resolve)=>{
+//         setTimeout(()=>{
+//             resolve("Done");
+//         },2000);
+//     });
+// }
 
-async function run (){
-    let result = await delay();
-    console.log(result);
-}
-run();
+// async function run (){
+//     let result = await delay();
+//     console.log(result);
+// }
+// run();
+
+// function user (age) {
+//     if (age < 18) {
+//         throw new Error ("Access Denied");
+//     } else {
+//         console.log("Access Granted");
+//     }
+// }
+
+// // user(12);
+// try {
+//     user(12);
+// } catch(e) {
+//     console.log(e.message);
+// }
