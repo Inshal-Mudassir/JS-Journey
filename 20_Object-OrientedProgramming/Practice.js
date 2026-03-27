@@ -96,3 +96,71 @@
 //     }
 // }
 // console.log(MathU.add(2,3));
+
+// Inheritance
+
+// class Animal {
+//     speak() {
+//         console.log("Animals can make sound.");
+//     }
+// }
+
+// class Dog extends Animal {
+//     bark() {
+//         console.log("Dog Barks!");
+//     }
+// }
+
+// d1 = new Dog();
+// d1.speak();
+// d1.bark();
+
+// class Animal {
+//     speak() {
+//         console.log("Animals can make sound.");
+//     }
+// }
+
+// class Dog extends Animal {
+//     speak() {
+//         console.log("Dog Barks!");
+//     }
+// }
+
+// d1 = new Dog();
+// d1.speak();
+
+// class Animal {
+//     speak() {
+//         console.log("Animals can make sound.");
+//     }
+// }
+
+// class Dog extends Animal {
+//     speak() {
+//         super.speak();
+//         console.log("Dog Barks!");
+//     }
+// }
+
+// d1 = new Dog();
+// d1.speak();
+
+// Constructor With Super
+
+// class Animal {
+//     constructor(name) {
+//         this.name = name;
+//     }
+// }
+
+// class Dog extends Animal {
+//     constructor (name, bread) {
+//         super(name);
+//         this.bread = bread;
+//     }
+// }
+
+// d1 = new Dog("Tommy", "Meat");
+// console.log(d1.name);
+// console.log(d1.bread);
