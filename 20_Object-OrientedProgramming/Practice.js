@@ -186,22 +186,42 @@
 
 // Polymorphism
 
-class Animal {
-    speak() {
-        console.log("Animal makes Sound.")
-    }
-}
-class Dog extends Animal {
-    speak () {
-        console.log("Dog Barks.")
-    }
-}
-class Cat extends Animal{
-    speak() {
-        console.log("Cat meows");
-    }
-}
-let d = new Dog();
-let c = new Cat();
-d.speak();
-c.speak();
+// class Animal {
+//     speak() {
+//         console.log("Animal makes Sound.")
+//     }
+// }
+// class Dog extends Animal {
+//     speak () {
+//         console.log("Dog Barks.")
+//     }
+// }
+// class Cat extends Animal{
+//     speak() {
+//         console.log("Cat meows");
+//     }
+// }
+// let d = new Dog();
+// let c = new Cat();
+// d.speak();
+// c.speak();
+
+// Abstraction
+
+// class CoffeeMachine {
+//     startMachine() {
+//         this.#heatWater();
+//         this.#brewCoffee();
+//     }
+
+//     #heatWater() {
+//         console.log("Heating Water");
+//     }
+
+//     #brewCoffee() {
+//         console.log("Brewing Coffee...");
+//     }
+// }
+
+// let cm = new CoffeeMachine();
+// cm.startMachine();
