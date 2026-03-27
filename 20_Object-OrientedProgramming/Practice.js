@@ -183,3 +183,25 @@
 // let b = new Bank();
 // b.deposit(2000);
 // console.log(b.getBalance());
+
+// Polymorphism
+
+class Animal {
+    speak() {
+        console.log("Animal makes Sound.")
+    }
+}
+class Dog extends Animal {
+    speak () {
+        console.log("Dog Barks.")
+    }
+}
+class Cat extends Animal{
+    speak() {
+        console.log("Cat meows");
+    }
+}
+let d = new Dog();
+let c = new Cat();
+d.speak();
+c.speak();
