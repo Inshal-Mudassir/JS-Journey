@@ -164,3 +164,22 @@
 // d1 = new Dog("Tommy", "Meat");
 // console.log(d1.name);
 // console.log(d1.bread);
+
+// Encapsulation
+
+// class Bank {
+//     #balance = 0;
+
+//     deposit(amount) {
+//         if (amount > 0) {
+//             this.#balance += amount;
+//         }
+//     }
+//     getBalance() {
+//         return this.#balance;
+//     }
+// }
+
+// let b = new Bank();
+// b.deposit(2000);
+// console.log(b.getBalance());
