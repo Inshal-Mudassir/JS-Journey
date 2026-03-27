@@ -225,3 +225,28 @@
 
 // let cm = new CoffeeMachine();
 // cm.startMachine();
+
+// Super 
+
+// class Vehicle {
+//     constructor(speed) {
+//         this.speed = speed;
+//     }
+//     move() {
+//         console.log(`Moving at ${this.speed}`);
+//     }
+// }
+
+// class car extends Vehicle {
+//     constructor(speed, brand) {
+//         super(speed);
+//         this.brand = brand;
+//     }
+//     move() {
+//         super.move();
+//         console.log(`${this.brand} is driving.`)
+//     }
+// }
+
+// let c = new car(100, "Toyota");
+// c.move();
