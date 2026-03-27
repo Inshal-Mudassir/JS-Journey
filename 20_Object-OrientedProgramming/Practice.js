@@ -48,15 +48,51 @@
 
 // Challenge Question
 
-class Product {
-    constructor(name, price) {
-        this.name = name;
-        this.price = price;
-    }
-    details(){
-        console.log(`Product Name : ${this.name} , Price : ${this.price}`);
-    }
-}
+// class Product {
+//     constructor(name, price) {
+//         this.name = name;
+//         this.price = price;
+//     }
+//     details(){
+//         console.log(`Product Name : ${this.name} , Price : ${this.price}`);
+//     }
+// }
 
-let p1 = new Product("Apple", 25);
-p1.details();
+// let p1 = new Product("Apple", 25);
+// p1.details();
+
+// Methods In Objects
+
+// let user = {
+//     name : "Inshal",
+//     age : 23,
+//     greet : function() {
+//         console.log(`Hello ${this.name}`);
+//     }
+// }
+
+// user.greet();
+
+// Multiple Methods
+
+// class Calculator {
+//     add (a,b) {
+//         return a + b;
+//     }
+//     multiply (a, b) {
+//         return a * b;
+//     }
+// }
+
+// let calc = new Calculator();
+// console.log(calc.add(2, 2));
+// console.log(calc.multiply(2, 2));
+
+// Static Methods
+
+// class MathU() {
+//     static add(a, b) {
+//         return a + b;
+//     }
+// }
+// console.log(MathU.add(2,3));
