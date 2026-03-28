@@ -39,3 +39,11 @@
 // p1.greet();
 
 
+// Object.create();
+
+let cat = {
+    eat : true
+};
+let dog = Object.create(cat);
+dog.barks = true;
+console.log(dog.eat);
