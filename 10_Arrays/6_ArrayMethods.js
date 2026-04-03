@@ -203,3 +203,8 @@
 // every()	all must match
 // sort()	sort elements
 // reverse()	reverse order
+
+
+let arr = ['mango', 'banana'];
+arr.push('apple');
+console.log(arr);
