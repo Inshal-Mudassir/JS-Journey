@@ -1,0 +1,10 @@
+let
+var
+const
+console.log
+console.table
+undefined
+"use strict"
+alert(""); 
+string number boolean bigint null undefined symbol object
+typeof
