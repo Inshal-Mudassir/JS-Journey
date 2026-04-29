@@ -7,3 +7,7 @@
 
 // console.table([accountId, accountEmail, accountPassword, accountCity]);
 
+// Type Conversion
+
+// let score = "33";
+// let number = Number(score);  
