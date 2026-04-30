@@ -10,3 +10,4 @@ string number boolean bigint null undefined symbol object
 typeof
 type conversion => Number String boolean
 prefix postfix
+comparision
