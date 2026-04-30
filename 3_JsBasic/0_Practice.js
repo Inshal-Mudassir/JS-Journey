@@ -28,3 +28,18 @@
 
 // console.log(userOne.email);
 // console.log(userTwo.email);
+
+// Math.random() 
+
+// let num = Math.random(); // 0 - 0.999999
+// let num = Math.floor(Math.random() * 10);
+// let min = 10;
+// let max = 20;
+
+// let value = Math.floor(Math.random() * (max - min + 1)) + min;
+
+// 1 - 6
+let value = Math.floor((Math.random() * 6 + 1));
+
+
+console.log(value);
