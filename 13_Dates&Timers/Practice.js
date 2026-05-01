@@ -47,3 +47,6 @@
 // }, 3000);
 
 // clearTimeout(timer);
+
+let newDate = new Date();
+console.log(newDate);
