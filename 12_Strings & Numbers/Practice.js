@@ -35,7 +35,7 @@
 
 // Strings
 
-let string = "Java-Script";
+// let string = "Java-Script";
 
 // String Methods
 // console.log(string.includes("Script"));
@@ -43,3 +43,11 @@ let string = "Java-Script";
 // console.log(string.slice(0, 5));
 // console.log(string.split("-"));
 // console.log(string.slice(1, 3));
+
+// let random = Math.floor(Math.random() * 10) + 1;
+// console.log(random);
+
+// function getRandom(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+// }
+// console.log(getRandom(21, 30));
