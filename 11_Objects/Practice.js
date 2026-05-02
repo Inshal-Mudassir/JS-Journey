@@ -114,3 +114,11 @@
 // };
 
 // console.log(person.hasOwnProperty("name"));
+
+// let userDetails = {
+//     name : "Inshal",
+//     email : "Inshak@gmail.com"
+// }
+// const {name, email} = userDetails;
+// console.log(name);
+
