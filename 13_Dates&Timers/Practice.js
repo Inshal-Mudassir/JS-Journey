@@ -48,5 +48,5 @@
 
 // clearTimeout(timer);
 
-let newDate = new Date();
-console.log(newDate);
+// let newDate = new Date();
+// console.log(newDate);

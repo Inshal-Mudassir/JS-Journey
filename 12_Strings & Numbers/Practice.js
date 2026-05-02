@@ -32,3 +32,14 @@
 // console.log(Math.floor(4.6));
 // console.log(Math.ceil(4.6));
 // console.log(Math.random());
+
+// Strings
+
+let string = "Java-Script";
+
+// String Methods
+// console.log(string.includes("Script"));
+// console.log(string.indexOf("Script"));
+// console.log(string.slice(0, 5));
+// console.log(string.split("-"));
+// console.log(string.slice(1, 3));
