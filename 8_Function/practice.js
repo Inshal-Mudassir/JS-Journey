@@ -2,6 +2,8 @@
 //     console.log("Hello!");
 // }
 
+// const { use, useReducer } = require("react")
+
 // sayHello();
 
 // Function With Parameter
@@ -70,3 +72,16 @@
 // (function () {
 //     console.log('Hello!');
 // })();
+
+// Arrow Function
+
+// let user = {
+//     userName : "Inshal",
+//     print : function() {
+//         console.log(this.userName);
+//         console.log(this);
+//     }
+// }
+// user.print();
+// user.userName = "Moon";
+// console.log(this);
