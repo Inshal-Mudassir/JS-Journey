@@ -84,4 +84,10 @@
 // }
 // user.print();
 // user.userName = "Moon";
-// console.log(this);
+// console.log(this); 
+
+let returnObject = () => ({
+    name : "Inshal"
+})
+
+console.log(returnObject());
