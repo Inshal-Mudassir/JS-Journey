@@ -86,8 +86,8 @@
 // user.userName = "Moon";
 // console.log(this); 
 
-let returnObject = () => ({
-    name : "Inshal"
-})
+// let returnObject = () => ({
+//     name : "Inshal"
+// })
 
-console.log(returnObject());
+// console.log(returnObject());
