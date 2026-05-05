@@ -91,3 +91,12 @@
 // })
 
 // console.log(returnObject());
+
+const cart = [
+  {item: "Phone", price: 50000},
+  {item: "Charger", price: 1500},
+  {item: "Cover", price: 800}
+];
+
+let totalValue = cart.reduce((total, initial) => {return total + initial.price},0);
+console.log(totalValue);
